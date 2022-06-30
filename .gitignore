@@ -1,0 +1,15 @@
+.DS_Store
+sender/enron
+sender/*.pk
+sender/ct
+receiver/*.ctr
+receiver/pk
+receiver/rek
+receiver/rok
+receiver/sk
+server/*.ct
+server/*.ctr
+server/*.pk
+server/*.rek
+server/*.rok
+server/probdiffs/
