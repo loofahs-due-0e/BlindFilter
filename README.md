@@ -1,4 +1,8 @@
-# BlindFilter
+# BlindFilter (SRDS 2023)
+BlindFilter: Privacy-Preserving Spam Email Detection Using Homomorphic Encryption
+
+Dongwon Lee, Myeonghwan Ahn, Hyesun Kwak, Jin B. Hong and Hyoungshick Kim
+
 ## abstract
 * Naïve Bayesian spam filtering
 * with Homomorphic Encryption (using [Lattigo](https://github.com/ldsec/lattigo) implementation of CKKS)
@@ -124,3 +128,19 @@ with server & two client containers running,
 [MWiechmann/enron_spam_data](https://github.com/MWiechmann/enron_spam_data) provides `enron_spam_data.csv`
 
 We corrected some format error on that to make `enron_spam_data_prep.csv`, which consists of 33715 e-mails (16545 ham + 17170 spam)
+
+## cite us
+```
+@inproceedings{LAKHK23,
+  author       = {Dongwon Lee and
+                  Myeonghwan Ahn and
+                  Hyesun Kwak and
+                  Jin B. Hong and
+                  Hyoungshick Kim},
+  title        = {BlindFilter: Privacy-Preserving Spam Email Detection Using Homomorphic Encryption},
+  booktitle    = {42st International Symposium on Reliable Distributed Systems, {SRDS}
+                  2023, Marrakech, Morocco, September 25-29, 2023},
+  publisher    = {{IEEE}},
+  year         = {2023}
+}
+```
